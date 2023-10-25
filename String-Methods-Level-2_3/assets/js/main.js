@@ -9,7 +9,7 @@ function highlight() {
 
   // let textNew =
 
-  text.textContent = text.innerText.replaceAll(
+  text.innerHTML = text.innerText.replaceAll(
     `${input.value}`,
     `<span class="highlight">${input.value}</span>`
   );
